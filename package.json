@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "browsersync": "browser-sync start --server --files '**/*.html, scss/*.scss'",
     "styles": "node-sass -w ./src/scss -o ./src/css",
-    "browsersync": "browser-sync start --server --files '**/*'"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
