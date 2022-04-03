@@ -1,0 +1,26 @@
+{
+  "name": "euclig",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "browsersync": "browser-sync start --server --files '**/*.html, scss/*.scss'",
+    "styles": "node-sass -w ./src/scss -o ./src/css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kot-off/Euclig.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kot-off/Euclig/issues"
+  },
+  "homepage": "https://github.com/Kot-off/Euclig#readme",
+  "dependencies": {
+    "browser-sync": "^2.27.9",
+    "node-sass": "^7.0.1"
+  }
+}
