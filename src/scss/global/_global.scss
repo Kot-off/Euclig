@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;800&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html {
+body {
   font-size: 10px;
   line-height: 10px;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -23,6 +27,7 @@ a {
 li {
   list-style: none;
 }
+
 
 .wrapper {
   max-width: 1800px;
